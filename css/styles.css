@@ -1263,7 +1263,7 @@ header.masthead {
 
 .insomnia-item2 {
   position: absolute;
-  top: -145px;
+  top: -110px;
   right: 15px;
   width: 50rem;
 }
@@ -1295,7 +1295,7 @@ header.masthead {
   padding-top: 14px;
   margin-bottom: 30px;
   color: #ffffff;
-  font-family: "Spectral", sans-serif;
+  font-family: 'Spectral', sans-serif;
 }
 .content-wrapper {
   margin-left: 7rem;
@@ -1416,18 +1416,11 @@ a {
     width: 200%;
   }
   .buttons {
-    
     margin-right: 5rem !important;
   }
-  
 }
-@media (max-width:1951px){
+@media (max-width: 1951px) {
   .buttons {
     margin-right: 15rem;
-  }
-  .insomnia-item2 {
-    top: -110px;
-    right: 42px;
-  
   }
 }
