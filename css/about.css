@@ -1115,9 +1115,7 @@ body {
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 0.75rem;
-  font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'DM Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   margin-left: auto;
@@ -1127,6 +1125,7 @@ body {
   font-family: 'DM Sans', sans-serif;
   font-size: 12px;
   color: #1f1f1f;
+  letter-spacing: 0.0625em;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -1156,7 +1155,6 @@ body {
   }
 
   #mainNav .navbar-nav .nav-item:last-child {
-    margin-right: 0;
     color: #fff;
   }
 }
@@ -1250,12 +1248,15 @@ header.masthead {
 
 @media (min-width: 1749px) {
   .connect-item1 img {
-    width: 60%;
+    width: 70%;
     margin-left: 12rem;
+    margin-top: -2rem;
+
   }
   .connect-item2 {
     padding-top: 150px;
     width: 40%;
+    margin-left: 6rem;
   }
   .button {
     margin-bottom: 50px;

@@ -1179,6 +1179,7 @@ header.masthead {
 }
 .masthead-subheading img:nth-child(2) {
   margin-bottom: 10px;
+  width: 4.5%;
 }
 .logo {
   width: 200px;
@@ -1294,6 +1295,7 @@ header.masthead {
   padding-top: 14px;
   margin-bottom: 30px;
   color: #ffffff;
+  font-family: "Spectral", sans-serif;
 }
 .content-wrapper {
   margin-left: 7rem;
@@ -1409,8 +1411,23 @@ a {
     width: 41rem;
   }
   .insomnia-item2 {
-    top: -93px;
+    top: -93px !important;
     right: 42px;
     width: 200%;
+  }
+  .buttons {
+    
+    margin-right: 5rem !important;
+  }
+  
+}
+@media (max-width:1951px){
+  .buttons {
+    margin-right: 15rem;
+  }
+  .insomnia-item2 {
+    top: -110px;
+    right: 42px;
+  
   }
 }
