@@ -25,21 +25,22 @@ window.addEventListener('DOMContentLoaded', (event) => {
       }
     };
 
-    if(_href=='https://www.katechang.info/' || _href=='https://www.katechang.info/#wg'){
-        _currentNav = '#homeNav';
-    } else if(_url.match(/pattern/)){
-        _currentNav = '#patternNav';
-    } else if(_url.match(/about/)){
-        _currentNav = '#aboutNav';
-    }else{
-      _currentNav='';
-    }
-    
+  if (
+    _href == 'https://www.katechang.info/' ||
+    _href == 'https://www.katechang.info/#wg'
+  ) {
+    _currentNav = '#homeNav';
+  } else if (_url.match(/pattern/)) {
+    _currentNav = '#patternNav';
+  } else if (_url.match(/about/)) {
+    _currentNav = '#aboutNav';
+  } else {
+    _currentNav = '';
+  }
 
-    if(_currentNav){
-      document.querySelector(_currentNav).classList.add('onsite')
-    }
-    
+  if (_currentNav) {
+    document.querySelector(_currentNav).classList.add('onsite');
+  }
 
   // Shrink the navbar
   navbarShrink();
@@ -69,13 +70,25 @@ window.addEventListener('DOMContentLoaded', (event) => {
     });
   });
 
-  navList.forEach(navs=>{
-    navs.addEventListener('click', ()=>{
-        document.querySelector('.onsite')?.classList.remove('onsite');
-        navs.classList.add('onsite')
-    })
-  })
+  navList.forEach((navs) => {
+    navs.addEventListener('click', () => {
+      document.querySelector('.onsite')?.classList.remove('onsite');
+      navs.classList.add('onsite');
+    });
+  });
+  let elementsArray = document.querySelectorAll('.fadeup, .faderight');
+  window.addEventListener('scroll', fadeIn);
+  function fadeIn() {
+    for (var i = 0; i < elementsArray.length; i++) {
+      var elem = elementsArray[i];
+      var distInView =
+        elem.getBoundingClientRect().top - window.innerHeight + 20;
+      if (distInView < 0) {
+        elem.classList.add('inView');
+      } else {
+        elem.classList.remove('inView');
+      }
+    }
+  }
+  fadeIn();
 });
-
-
-
