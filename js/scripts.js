@@ -77,8 +77,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     });
   });
   let elementsArray = document.querySelectorAll('.fadeup, .faderight');
-  window.addEventListener('scroll', fadeIn);
-  function fadeIn() {
+  window.addEventListener('scroll', fadeTop);
+  function fadeTop() {
     for (var i = 0; i < elementsArray.length; i++) {
       var elem = elementsArray[i];
       var distInView =
@@ -90,5 +90,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       }
     }
   }
-  fadeIn();
+ 
+  fadeTop();
+
 });
