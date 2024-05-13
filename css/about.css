@@ -1153,8 +1153,8 @@ body {
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
   }
-
   #mainNav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
     color: #fff;
   }
 }
@@ -1182,7 +1182,7 @@ header.masthead {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   text-align: left;
-  width: 100%;
+
   justify-items: left;
   margin-bottom: 6rem;
   margin-left: 6rem;
@@ -1239,19 +1239,12 @@ header.masthead {
   color: black;
   border: #1f1f1f 1px solid;
 }
-@media (min-width: 768px) {
-  .container {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
 
 @media (min-width: 1749px) {
   .connect-item1 img {
     width: 70%;
     margin-left: 12rem;
     margin-top: -2rem;
-
   }
   .connect-item2 {
     padding-top: 150px;

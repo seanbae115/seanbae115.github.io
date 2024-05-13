@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       }
     };
 
-    if(_href=='https://seanbae115.github.io/KatePorfolio2/' || _href=='https://seanbae115.github.io/KatePorfolio2/#wg'){
+    if(_href=='https://www.katechang.info/' || _href=='https://www.katechang.info/#wg'){
         _currentNav = '#homeNav';
     } else if(_url.match(/pattern/)){
         _currentNav = '#patternNav';
