@@ -76,21 +76,35 @@ window.addEventListener('DOMContentLoaded', (event) => {
       navs.classList.add('onsite');
     });
   });
-  let elementsArray = document.querySelectorAll('.fadeup, .faderight');
+  var elementsArray = document.querySelectorAll('.fadeup, .faderight');
   window.addEventListener('scroll', fadeTop);
   function fadeTop() {
     for (var i = 0; i < elementsArray.length; i++) {
-      var elem = elementsArray[i];
-      var distInView =
-        elem.getBoundingClientRect().top - window.innerHeight + 20;
+      var elem = elementsArray[i],
+       distInView =
+        elem.getBoundingClientRect().top - window.innerHeight + 20,
+        distInBot = elem.getBoundingClientRect().bottom;
       if (distInView < 0) {
         elem.classList.add('inView');
       } else {
         elem.classList.remove('inView');
       }
+      if(distInBot < 0){
+        elem.classList.remove('inView');
+      }
     }
   }
+  var vector = document.querySelectorAll('.vector'),
+   imgs = document.querySelectorAll('.img-wrapper');
+  function upanddown(){
+    setInterval(inViewCheck, 1000)
+  }
+  function inViewCheck(){
+    vector[0].classList.length<2? vector[0].classList.add('inView'):vector[0].classList.remove('inView')
+  }
+
  
+  upanddown();
   fadeTop();
 
 });

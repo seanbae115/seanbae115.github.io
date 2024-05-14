@@ -1214,6 +1214,15 @@ header.masthead {
   margin: 0 auto;
   justify-content: center;
   width: 5%;
+  -webkit-transform: translateY(15px);
+  transform: translateY(15px);
+  -webkit-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  opacity: 1;
 }
 
 .page-section .wg {
@@ -1466,5 +1475,27 @@ a {
 .inView {
   opacity: 1;
   -webkit-transform: translateY(0) rotate(0) translateZ(0);
-  transform: translateY(0px) translateZ(0);
+  transform: translateY(0px) rotate(0) translateZ(0);
+}
+.rotate-left {
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
+  -webkit-transition-delay: 0.3s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 1;
+}
+.rotate-right {
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  -webkit-transition-delay: 0.3s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 1;
 }

@@ -284,6 +284,10 @@ button:not(:disabled) {
   .container-xl {
     max-width: 1800px;
   }
+  .competitor-item4 {
+    margin-top: 9rem;
+    margin-bottom: 11rem !important;
+  }
 }
 
 @media (min-width: 2300px) {
@@ -1059,7 +1063,7 @@ body {
 }
 /*--section title------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .section-title {
-  font-family: 'Spectral', serif;
+  font-family: 'Spectral', sans-serif;
   font-size: 25px;
   line-height: 35px;
   font-weight: 500;
@@ -1118,8 +1122,15 @@ body {
 .takeaway2-img {
   width: 100%;
 }
-.overview-img img {
+.prototype-img {
   width: 30%;
+  margin: auto;
+}
+.prototype-img iframe {
+  border-radius: 30px;
+}
+.overview-img img {
+  width: 25%;
 }
 .as-is-img img,
 .as-is-app-img img,
@@ -1204,7 +1215,7 @@ header.masthead .container {
   transform: translate(-50%, -50%);
 }
 .masthead-title {
-  font-family: 'Spectral', serif;
+  font-family: 'Spectral', sans-serif;
   font-size: 35px;
   letter-spacing: -1px;
   line-height: 40px;
@@ -1250,7 +1261,7 @@ header.masthead .container {
 }
 .overview-item4 ul {
   margin-top: 34px;
-  font-family: 'Spectral', serif;
+  font-family: 'Spectral', sans-serif;
   font-size: 25px;
   letter-spacing: -1px;
   line-height: 35px;
@@ -1276,6 +1287,9 @@ header.masthead .container {
   line-height: 153.3%;
   color: #1f1f1f;
   font-weight: bold;
+}
+ul li::marker {
+  font-size: 20px;
 }
 .sub-content {
   font-family: 'DM Sans', sans-serif;
@@ -1473,7 +1487,7 @@ header.masthead .container {
   padding-bottom: 7rem;
 }
 .takeaway2-text {
-  font-family: 'Spectral', serif;
+  font-family: 'Spectral', sans-serif;
   font-size: 25px;
   line-height: 35px;
   color: #525252;
@@ -1513,7 +1527,7 @@ header.masthead .container {
 }
 .btn-text {
   font-size: 12px;
-  font-family: 'Spectral', serif;
+  font-family: 'Spectral', sans-serif;
   line-height: 11px;
   letter-spacing: -1px;
   color: #1f1f1f;
@@ -1524,7 +1538,7 @@ header.masthead .container {
 }
 .btn-text span {
   font-size: 25px;
-  font-family: 'Spectral', serif;
+  font-family: 'Spectral', sans-serif;
   line-height: 35px;
   letter-spacing: -1px;
   color: #1f1f1f;
@@ -1568,7 +1582,7 @@ header.masthead .container {
   }
   .prototype-img iframe {
     width: 100%;
-    height: 80rem;
+    height: 75rem;
   }
   .takeaway2-img .arrow {
     padding-top: 320px;
@@ -1588,5 +1602,13 @@ header.masthead .container {
   .right-wrapper {
     margin-left: 7rem;
     margin-right: 8rem;
+  }
+}
+@media (max-width: 1749px) {
+  .competitor-item2 {
+    margin-bottom: 80px;
+  }
+  .competitor-item4 {
+    margin-bottom: 50px;
   }
 }
