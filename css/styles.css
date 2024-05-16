@@ -1229,16 +1229,25 @@ header.masthead {
   background-color: #a7b3d1;
   width: 100%;
   display: block;
+  background: linear-gradient(to left, #a7b3d1 50%, #596980 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
 }
 .page-section .torrid {
   background-color: #c4b4b4;
   width: 100%;
   display: block;
+  background: linear-gradient(to left, #c4b4b4 50%, #444444 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
 }
 .page-section .insomnia {
   background-color: #f2d6aa;
   width: 100%;
   display: block;
+  background: linear-gradient(to left, #f2d6aa 50%, #64564e 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
 }
 
 .heading-grid {
@@ -1334,7 +1343,26 @@ a {
   height: 100%;
   position: absolute;
   z-index: 1;
+  cursor: pointer;
 }
+
+#atag:hover + #insomnia,
+#atag:hover + .wg,
+#atag:hover + .torrid {
+  background-position: left;
+}
+#atag:hover + #insomnia .title,
+#atag:hover + .wg .title,
+#atag:hover + .torrid .title {
+  color: #ffffff;
+}
+
+#atag:hover + #insomnia .content,
+#atag:hover + .wg .content,
+#atag:hover + .torrid .content {
+  color: #c8c8c8;
+}
+
 .connect {
   padding-top: 0 !important;
 }
