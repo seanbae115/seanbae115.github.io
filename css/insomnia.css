@@ -243,7 +243,7 @@ button:not(:disabled) {
   margin-left: auto;
 }
 
-/* @media (min-width: 576px) {
+@media (min-width: 576px) {
   .container {
     max-width: 540px;
   }
@@ -260,7 +260,7 @@ button:not(:disabled) {
   .container-lg {
     max-width: 960px;
   }
-} */
+}
 
 @media (min-width: 1200px) {
   .container,
@@ -1699,8 +1699,8 @@ ul li::marker {
   .prototype-grid,
   .takeaway-grid {
     grid-template-columns: 1fr;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .overview-item1 {
     margin-bottom: 100px;
