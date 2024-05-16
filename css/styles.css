@@ -1229,19 +1229,19 @@ header.masthead {
   background-color: #a7b3d1;
   width: 100%;
   display: block;
-  transition: 1.5s ease-out;
+  transition: 0.2s ease-out;
 }
 .page-section .torrid {
   background-color: #c4b4b4;
   width: 100%;
   display: block;
-  transition: 1.5s ease-out;
+  transition: 0.2s ease-out;
 }
 .page-section .insomnia {
   background-color: #f2d6aa;
   width: 100%;
   display: block;
-  transition: 1.5s ease-out;
+  transition: 0.2s ease-out;
 }
 
 #atag:hover + #insomnia {

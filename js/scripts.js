@@ -90,9 +90,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
       } else {
         elem.classList.remove('inView');
       }
-      if(!_projectUrl && distInBot < 0){
-        elem.classList.remove('inView');
-      }
     }
   }
   var vector = document.querySelectorAll('.vector'),
