@@ -1531,6 +1531,9 @@ header.masthead {
 .solution-grid2-item12 img {
   width: 100%;
 }
+.solution-grid2-item9 img {
+  border-radius: 15px 15px 0 0;
+}
 
 .solution-grid2-item9 div,
 .solution-grid2-item12 div,
@@ -1672,7 +1675,7 @@ header.masthead {
   text-align: center;
 }
 .iframe iframe {
-  width: 80%;
+  width: 29%;
   height: 100%;
 }
 
@@ -1738,6 +1741,19 @@ header.masthead {
 @media (max-width: 2300px) {
   .solution-grid2 {
     padding-right: 9rem;
+    padding-left: 4rem;
+  }
+  .heading-grid,
+  .approach-grid,
+  .problem-grid,
+  .solution-grid,
+  .usability-grid,
+  .final-look-grid,
+  .take-away-grid {
+    margin-left: 13rem;
+  }
+  .final-look-img-grid img {
+    width: 85%;
   }
 }
 @media (max-width: 1749px) {
@@ -1762,6 +1778,7 @@ header.masthead {
   .solution-grid2 {
     width: 100%;
     padding-right: 5px;
+    padding-left: 0;
   }
   .problem-item3 {
     width: 70%;
