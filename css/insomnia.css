@@ -1166,9 +1166,9 @@ body {
   color: #7b7b7b;
 }
 .usability-img img {
-  width: 55%;
-  margin-top: 223px;
-  margin-left: 50px;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 .prototype-img iframe {
   width: 100%;
@@ -1489,8 +1489,8 @@ ul li::marker {
   line-height: 35px;
   color: #525252;
   text-align: left;
-  margin-left: 140px;
-  margin-bottom: 30px;
+  margin-left: 280px;
+  margin-bottom: 50px;
   letter-spacing: -1px;
 }
 /*--footer-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
