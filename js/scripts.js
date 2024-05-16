@@ -12,6 +12,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     _url = location.href.split('/').slice(-1).toString(),
     _href = location.href,
     _currentNav,
+    _projectUrl = _url.match(/insomnia|wg|torrid/);
     // Navbar shrink function
     navbarShrink = function () {
       const navbarCollapsible = document.body.querySelector('#mainNav');
@@ -89,7 +90,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       } else {
         elem.classList.remove('inView');
       }
-      if(distInBot < 0){
+      if(!_projectUrl && distInBot < 0){
         elem.classList.remove('inView');
       }
     }
