@@ -1695,6 +1695,9 @@ header.masthead .masthead-subheading {
 }
 
 @media (max-width: 768px) {
+  br {
+    display: none;
+  }
   #mainNav {
     padding-right: 0 !important;
   }
@@ -1762,6 +1765,7 @@ header.masthead .masthead-subheading {
     grid-column: 1;
     margin-top: 60px;
     text-align: center;
+    width: 100%;
   }
   .approach-item6 {
     grid-row: 5;
