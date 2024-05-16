@@ -1626,14 +1626,12 @@ header.masthead {
   font-weight: 400;
 }
 
-.solution-grid2-item3 img:nth-child(2) {
-  margin-top: 20px;
-}
-
 .solution-grid2-item1 img:nth-child(5) {
   margin-top: 15px;
 }
-
+.solution-grid2-item7 {
+  margin-top: 10px;
+}
 .button-box .solution-grid2-item1 div:nth-child(6) {
   margin-top: 40px;
 }
