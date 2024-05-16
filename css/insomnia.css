@@ -1644,7 +1644,7 @@ ul li::marker {
   }
   .competitor-item3 .competitor-img img,
   .competitor-item5 .competitor-img img {
-    margin-top: 30px;
+    margin-top: 57px;
   }
   .c-line {
     margin-top: 35px;
@@ -1665,6 +1665,20 @@ ul li::marker {
   .takeaway2-text {
     font-size: 15px;
     margin-left: 120px;
+  }
+  .competitor-item4 {
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 991px) {
+  .left-wrapper {
+    margin-left: 4rem;
+  }
+  .competitor-item3 .competitor-img img,
+  .competitor-item5 .competitor-img img {
+    margin-top: 103px;
+    width: 150%;
   }
 }
 
@@ -1778,7 +1792,7 @@ ul li::marker {
     margin-top: 0;
   }
   .c-line {
-    margin-top: 0;
+    margin-top: 100px;
     width: 90%;
     left: auto;
   }
