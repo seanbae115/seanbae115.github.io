@@ -1341,10 +1341,13 @@ a {
 
 @media (max-width: 768px) {
   #mainNav {
-    padding-right: 2rem;
+    padding-right: 0;
   }
   .page-section > a {
     padding-bottom: 30px;
+  }
+  .page-section > div {
+    padding-top: 80px;
   }
   .page-section > a > div > div {
     padding-top: 50px;
@@ -1356,9 +1359,19 @@ a {
   .connect-grid {
     display: grid;
     margin-left: 1rem !important;
-
-    height: 30rem;
+    height: 25rem;
   }
+  .heading-grid {
+    padding-top: 80px;
+    height: 34rem;
+  }
+  .vector {
+    margin-top: 80px;
+  }
+  .masthead-subheading {
+    margin-left: 20px;
+  }
+
   .title {
     font-size: 30px;
     margin-left: 20px;
@@ -1374,19 +1387,19 @@ a {
   .wg-item2 img {
     width: 110%;
     position: absolute;
-    bottom: -27px;
+    bottom: -130px;
     left: -23px;
   }
   .torrid-item2 img {
     width: 100%;
     position: absolute;
-    bottom: -50px;
+    bottom: -150px;
     left: -8px;
   }
   .insomnia-item2 img {
     width: 100%;
     position: absolute;
-    bottom: 10px;
+    bottom: -110px;
     left: -20px;
   }
   .wg-item2,
@@ -1439,12 +1452,13 @@ a {
     width: 200%;
   }
   .buttons {
+    margin-top: 7rem;
     margin-right: 5rem !important;
   }
 }
 @media (max-width: 1951px) {
   .buttons {
-    margin-right: 15rem;
+    margin-right: 12rem;
   }
 }
 

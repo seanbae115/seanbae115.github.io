@@ -284,10 +284,6 @@ button:not(:disabled) {
   .container-xl {
     max-width: 1800px;
   }
-  .competitor-item4 {
-    margin-top: 9rem;
-    margin-bottom: 11rem !important;
-  }
 }
 
 @media (min-width: 2300px) {
@@ -1358,7 +1354,8 @@ ul li::marker {
   width: 100%;
   grid-column: 2 / 2;
   grid-row: 2 / 2;
-  margin-bottom: 95px;
+  margin-top: 11rem;
+  margin-bottom: 17rem;
 }
 .competitor-item5 {
   text-align: left;
@@ -1557,32 +1554,49 @@ ul li::marker {
     margin: 0 auto;
   }
 }
-@media (min-width: 1441px) {
+@media (max-width: 2299px) {
+  .competitor-item4 {
+    margin-bottom: 210px;
+  }
+}
+@media (max-width: 1749px) {
+  .competitor-item2 {
+    margin-bottom: 80px;
+  }
+  .competitor-item4 {
+    margin-top: 120px;
+    margin-bottom: 90px;
+  }
+  .overview-item3 {
+    margin-top: 10rem;
+  }
+  .overview-item3 .overview-img img {
+    width: 100%;
+  }
+}
+@media (max-width: 1441px) {
   .c-line {
     width: 75%;
     left: 17%;
     top: 57%;
   }
   .consistent2-item1 .consistent2-img img {
-    padding-top: 80px;
+    padding-top: 50px;
     margin-left: 117px;
   }
   .consistent2-item3 .consistent2-img img {
     width: 80%;
   }
   .arrow {
-    padding-top: 320px;
+    padding-top: 200px;
     width: 100%;
   }
-  .usability-item2 {
-    margin-bottom: 300px;
-  }
+
   .usability-item4 .sub-title {
     margin-bottom: 30px;
   }
   .prototype-img iframe {
     width: 100%;
-    height: 75rem;
   }
   .takeaway2-img .arrow {
     padding-top: 320px;
@@ -1593,22 +1607,132 @@ ul li::marker {
     width: 55%;
     margin-top: 40px;
   }
-  .takeaway2-text {
-    margin-left: 12rem;
-  }
+
   .left-wrapper {
-    margin-left: 12rem;
+    padding-right: 4rem;
   }
   .right-wrapper {
-    margin-left: 7rem;
-    margin-right: 8rem;
-  }
-}
-@media (max-width: 1749px) {
-  .competitor-item2 {
-    margin-bottom: 80px;
+    margin-right: 0;
   }
   .competitor-item4 {
-    margin-bottom: 50px;
+    margin-top: 140px;
+    margin-bottom: 70px;
   }
+  .competitor-item6 {
+    margin-top: 70px;
+  }
+  .usability-item4 .solution-tag {
+    top: 200px;
+  }
+  .usability-img img {
+    width: 75%;
+    margin-top: 200px;
+  }
+  .prototype-img {
+    width: 100%;
+  }
+  .takeaway2-item3 img {
+    width: 95%;
+    margin-top: 120px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .competitor-item3 .competitor-img img,
+  .competitor-item5 .competitor-img img {
+    width: 120%;
+  }
+  .competitor-item3 .competitor-img img,
+  .competitor-item5 .competitor-img img {
+    margin-top: 30px;
+  }
+  .c-line {
+    margin-top: 35px;
+  }
+  .consistent2-item1 .consistent2-img img {
+    padding-top: 40px;
+    margin-left: 117px;
+  }
+  .arrow {
+    padding-top: 130px;
+    width: 90%;
+  }
+  .usability-img img {
+    width: 100%;
+    margin-top: 300px;
+    margin-left: 0;
+  }
+  .takeaway2-text {
+    font-size: 15px;
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  #mainNav {
+    padding-right: 0;
+  }
+  .masthead-title {
+    font-size: 22px;
+  }
+  .masthead-content {
+    font-size: 15px;
+  }
+  .left-wrapper {
+    margin-left: 1rem;
+    padding-right: 0;
+  }
+  .right-wrapper {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .overview-grid,
+  .as-is-grid,
+  .as-is-app-grid,
+  .competitor-grid,
+  .user-flow-grid,
+  .consistent-grid,
+  .high-fidelity-grid,
+  .usability-grid,
+  .prototype-grid,
+  .takeaway-grid {
+    display: flex !important;
+    flex-flow: column;
+  }
+  .left-wrapper {
+    flex: 1;
+  }
+  .right-wrapper {
+    flex: 1;
+  }
+  .overview-item1 {
+    margin-bottom: 50px;
+    order: 1;
+  }
+  .overview-item2 {
+    padding-top: 1.9rem;
+    margin-bottom: 174px;
+    order: 3;
+  }
+  .overview-item3 {
+    margin-top: 0;
+    order: 2;
+  }
+}
+.fadeup {
+  -webkit-transform: translateY(100px);
+  transform: translateY(100px);
+  -webkit-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+}
+.inView {
+  opacity: 1;
+  -webkit-transform: translateY(0) rotate(0) translateZ(0);
+  transform: translateY(0px) rotate(0) translateZ(0);
 }

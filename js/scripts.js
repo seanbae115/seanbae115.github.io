@@ -103,8 +103,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     vector[0].classList.length<2? vector[0].classList.add('inView'):vector[0].classList.remove('inView')
   }
 
- 
+ if(_href == 'https://www.katechang.info/' ||
+ _href == 'https://www.katechang.info/#wg'){
   upanddown();
+ }
+  
   fadeTop();
 
 });

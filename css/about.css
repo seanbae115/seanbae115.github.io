@@ -1311,3 +1311,35 @@ header.masthead {
     padding-right: 0;
   }
 }
+@media (max-width: 768px) {
+  .masthead-heading {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .connect-item1 img {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .connect-item2 {
+    width: 100%;
+    padding-top: 50px;
+  }
+}
+.fadeup {
+  -webkit-transform: translateY(100px);
+  transform: translateY(100px);
+  -webkit-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+}
+.inView {
+  opacity: 1;
+  -webkit-transform: translateY(0) rotate(0) translateZ(0);
+  transform: translateY(0px) rotate(0) translateZ(0);
+}
