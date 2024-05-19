@@ -2028,7 +2028,7 @@ header.masthead {
   }
   .iframe {
     width: 100%;
-    height: 30rem;
+    height: 47rem;
     text-align: center;
   }
   .iframe iframe {
@@ -2043,10 +2043,13 @@ header.masthead {
     width: 120px;
   }
   .btn-text {
-    font-size: 10px;
+    font-size: 7px;
   }
   .btn-text span {
     font-size: 25px;
+  }
+  .masthead-heading.item3 {
+    width: 18rem;
   }
 }
 

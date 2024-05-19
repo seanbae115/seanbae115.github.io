@@ -1371,7 +1371,7 @@ header.masthead .masthead-subheading {
   text-align: center;
 }
 .persona img {
-  width: 90%;
+  width: 70%;
 }
 
 .sitemap {
@@ -1440,7 +1440,7 @@ header.masthead .masthead-subheading {
 }
 
 .sketch {
-  max-width: 60rem;
+  max-width: 75rem;
   margin: 0 auto;
   text-align: center;
   margin-top: 10rem;
