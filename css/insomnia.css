@@ -1118,6 +1118,10 @@ body {
 .takeaway2-img {
   width: 100%;
 }
+
+.as-is-img {
+  text-align: center;
+}
 .prototype-img {
   width: 30%;
   margin: auto;
@@ -1126,7 +1130,7 @@ body {
   border-radius: 30px;
 }
 .overview-img img {
-  width: 25%;
+  width: 15%;
 }
 .as-is-img img,
 .as-is-app-img img,
@@ -1134,12 +1138,16 @@ body {
 .high-fidelity-img img {
   width: 100%;
 }
+.as-is-img img {
+  width: 80%;
+  margin-right: 140px;
+}
 .overview-item3 .overview-img img {
-  width: 85%;
+  width: 70%;
 }
 .competitor-item3 .competitor-img img,
 .competitor-item5 .competitor-img img {
-  width: 75%;
+  width: 50%;
 }
 
 .user-flow-img {
@@ -1161,14 +1169,13 @@ body {
   width: 80%;
 }
 .arrow {
-  padding-top: 180px;
+  padding-top: 250px;
   width: 90%;
   color: #7b7b7b;
 }
 .usability-img img {
-  width: 50%;
-  margin-top: 50px;
-  margin-left: 30px;
+  width: 48%;
+  margin-top: 100px;
 }
 .prototype-img iframe {
   width: 100%;
@@ -1233,7 +1240,8 @@ header.masthead .container {
   width: 100%;
   grid-column: 1 / 2;
   grid-row: 1/2;
-  margin-bottom: 126px;
+  margin-bottom: 100px;
+  margin-top: 40px;
 }
 .overview-item2 {
   text-align: left;
@@ -1265,6 +1273,9 @@ header.masthead .container {
 }
 .overview-item4 ul li {
   margin-bottom: 8px;
+}
+.overview-text {
+  margin-top: 30px;
 }
 
 .overview-text .sub-title {
@@ -1354,8 +1365,8 @@ ul li::marker {
   width: 100%;
   grid-column: 2 / 2;
   grid-row: 2 / 2;
-  margin-top: 11rem;
-  margin-bottom: 17rem;
+  margin-top: 12.5rem;
+  margin-bottom: 11rem;
 }
 .competitor-item5 {
   text-align: left;
@@ -1556,7 +1567,8 @@ ul li::marker {
 }
 @media (max-width: 2299px) {
   .competitor-item4 {
-    margin-bottom: 210px;
+    margin-bottom: 100px;
+    margin-top: 12rem;
   }
 }
 @media (max-width: 1749px) {
@@ -1578,7 +1590,7 @@ ul li::marker {
   .c-line {
     width: 75%;
     left: 17%;
-    top: 57%;
+    top: 59%;
   }
   .consistent2-item1 .consistent2-img img {
     padding-top: 50px;
@@ -1613,6 +1625,11 @@ ul li::marker {
   }
   .right-wrapper {
     margin-right: 0;
+  }
+
+  .competitor-item3 .competitor-img img,
+  .competitor-item5 .competitor-img img {
+    width: 70%;
   }
   .competitor-item4 {
     margin-top: 140px;
@@ -1792,14 +1809,18 @@ ul li::marker {
     margin-top: 0;
   }
   .c-line {
-    margin-top: 100px;
+    margin-top: 70px;
     width: 90%;
     left: auto;
   }
   .competitor-item3 .competitor-img img,
   .competitor-item5 .competitor-img img {
-    width: 100%;
+    width: 53%;
     margin-top: 0;
+  }
+  .competitor-item3,
+  .competitor-item5 {
+    text-align: center;
   }
   .solution-tag {
     top: -10px;
