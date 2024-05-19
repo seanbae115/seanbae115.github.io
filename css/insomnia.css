@@ -1909,6 +1909,9 @@ ul li::marker {
   .btn-text span {
     font-size: 25px;
   }
+  .as-is-img img {
+    margin-right: 0;
+  }
 }
 @media (max-width: 468px) {
   .masthead-title {
