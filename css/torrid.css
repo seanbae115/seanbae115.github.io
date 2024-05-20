@@ -1736,6 +1736,9 @@ header.masthead {
 #old {
   letter-spacing: 0;
 }
+.solution-grid2-item3 .group18 {
+  margin-top: 15px;
+}
 @media (max-width: 2300px) {
   .solution-grid2 {
     padding-right: 9rem;
